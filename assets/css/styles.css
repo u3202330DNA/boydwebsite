@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i|Spartan:400,700&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+}
+
+/*typography*/
+h1,
+h2,
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 10px 0 20px 0;
+}
+
+h1 {
+    text-align: left;
+    letter-spacing: 40px;
+    font-size: 60px;
+    padding: 15px 2px 15px 2px;
+}
+
+.wrapper {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+header {
+    background-image: none;
+    background-color: black;
+    color: #ffffff;
+    width: 1000px;
+    height: 200px
+}
+
+nav {
+    background-image: :none;
+    background-color: #ffffff;
+    align-content: center;
+    width: 1000px;
+    height: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+
+
+
+}
+
+nav ul li {
+    display: inline;
+}
+
+/*button */
+nav ul li a {
+    color: #1A7480;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 10px 15px;
+}
+
+/*background color for button*/
+nav ul li a:hover {
+    background-color: blueviolet;
+
+}
+
+.hero {
+    min-height: 350px;
+    background-image: url(../images/churchill-house-4.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+main {
+    color: #1A7480;
+}
+
+
+footer {
+    background-image: none;
+    background-color: black;
+    color: #ffffff;
+}
