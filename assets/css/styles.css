@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i|Spartan:400,700&display=swap');
 
 body {
-    background-color: black;
+    background-color: #000000;
     font-family: 'Spartan', sans-serif;
     font-size: 16px;
 }
@@ -21,6 +21,18 @@ h1 {
     padding: 15px 2px 15px 2px;
 }
 
+h2 {
+    padding-top: 20px;
+    font-size: 40px;
+    font-style: bold;
+    color: #1A7480;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-bottom: 3px solid #1A7480;
+    padding-bottom: 20px;
+    border-bottom-color: #8d3c1a;
+}
+
+
 .wrapper {
     width: 980px;
     margin-right: auto;
@@ -31,42 +43,43 @@ h1 {
 }
 
 header {
-    background-image: none;
-    background-color: black;
-    color: #ffffff;
+    background-color: 000000;
+    color: #1A7480;
+    font-style: oblique;
     width: 1000px;
-    height: 200px
+    height: 200px;
+
 }
 
 nav {
-    background-image: :none;
-    background-color: #ffffff;
+    background-color: #000000;
     align-content: center;
     width: 1000px;
     height: 0px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 25px;
-
-
-
 }
 
 nav ul li {
     display: inline;
+
 }
 
 /*button */
 nav ul li a {
     color: #1A7480;
     text-decoration: none;
-    background-color: #ffffff;
-    padding: 10px 15px;
+    background-color: #000000;
+    padding: 10px 30px;
+    font-style: bold;
+    letter-spacing: 7px;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*background color for button*/
 nav ul li a:hover {
-    background-color: blueviolet;
-
+    background-color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #8d3c1a;
 }
 
 .hero {
@@ -79,12 +92,25 @@ nav ul li a:hover {
 }
 
 main {
-    color: #1A7480;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 30px;
+    font-family: 'Spartan', sans-serif;
+    text-align: justify;
+    letter-spacing: 4px;
+    overflow: hidden;
 }
 
+p {
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
 
 footer {
-    background-image: none;
-    background-color: black;
+    background-color: #000000;
     color: #ffffff;
+    font-size: 12px;
+    padding-top: 30px;
 }
