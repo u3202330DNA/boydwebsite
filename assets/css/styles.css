@@ -52,25 +52,40 @@ h3 {
 
 }
 
+@media screen and (max-width: 1000px) {
+    main ul {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 836px) {
+
+    nav ul li {
+        display: block;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width 645px) {
+    .wrapper {
+        width: 100%;
+    }
+
     header {
+        width: 100%;
         letter-spacing: 2px;
         font-size: 100%;
 
     }
 
-    .columns {
+    .column {
         column-count: 1;
 
     }
 
 }
 
-@media screen and (max-width: 1000px) {
-    main ul {
-        font-size: 100%;
-    }
-}
+
 
 
 
