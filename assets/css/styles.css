@@ -27,7 +27,6 @@ h1 {
 h2 {
     padding-top: 20px;
     font-size: 40px;
-    font-style: bold;
     color: #1A7480;
     font-family: 'Roboto Condensed', sans-serif;
     border-bottom: 3px solid #1A7480;
@@ -37,7 +36,7 @@ h2 {
 
 h3 {
     font-size: 25px;
-    font-style: bold;
+
 
 
 }
@@ -108,7 +107,6 @@ nav ul li a {
     text-decoration: none;
     background-color: #001122;
     padding: 10px 30px;
-    font-style: bold;
     letter-spacing: 7px;
     font-size: 30px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -231,7 +229,6 @@ figure {
 footer {
     background-color: #001122;
     color: #787878;
-    font-size-adjust: 10px;
     padding-top: 100px;
 }
 
